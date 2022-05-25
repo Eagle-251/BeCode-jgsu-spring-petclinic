@@ -10,3 +10,4 @@ WORKDIR /opt/app
 COPY --from=builder /usr/src/petclinic/*.jar ./
 CMD [ "java", "-jar", "target/*.jar" ]
 
+
